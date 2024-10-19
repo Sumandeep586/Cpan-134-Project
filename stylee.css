@@ -7,6 +7,7 @@
 body{
     background-color: rgb(245, 220, 174);
     color:black;
+    text-align: left;
 }
 nav{
     display:flex;
@@ -50,16 +51,11 @@ nav ul li a:hover::after{
 nav .left{
     color: wheat;
 }
-.header-text{
-    margin-top: 3%;
-   margin-left: 3%;
-   margin-right: 12%;
-   font-size: 25px;
-}
+
 .header-text h1 p{
     font-size: 36px;
     margin-top:20px;
-    margin-left: 67%;
+    margin-left: 70%;
     margin-right: 0%;
     
 }
@@ -68,9 +64,9 @@ nav .left{
 }
 .header-text h1 blockquote{
     font-size: 36px;
-    margin-top:20px;
-    margin-left: 67%;
-    margin-right: 0%;
+    margin-top:12px;
+    margin-left: 70%;
+    margin-right: -10%;
 }
 .firstSection div{
     width: 70%;
@@ -82,20 +78,21 @@ nav .left{
 
 }
 .container h2{
+    text-align: center;
     margin-top: 3%;
-    margin-left: 45%;
+    margin-left: 16%;
     font-size: 37px;
     margin-right: 8%;
 }
 .container ul {
-    margin-left: 10%;
+    margin-left: 28%;
     margin-top: 1%;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
 }
 .container section p{
     text-align: left;
-    margin-left: 5%;
+    margin-left: 20%;
     font-size: x-large
 }
 .container section ul{
@@ -142,7 +139,21 @@ nav .left{
     border-bottom: 2px solid black;
 }
 .contactForm .inputBox input:focus ~ span{
-    color: darkreds;
+    color: red;
     font-size: 14px;
     transform: translate(-20px);
+}
+.container1 section{
+    text-align: left;
+    margin-left: 28%;
+    font-size: 28px;
+}
+.container3{
+    margin:50 px 0;
+    margin-top: -33%;
+    margin-left:68%;
+
+}
+.container4{
+    margin-top: -29%;
 }
